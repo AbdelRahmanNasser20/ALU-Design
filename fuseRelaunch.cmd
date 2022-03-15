@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/ALU_ALU_sch_tb_isim_beh.exe" -prj "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/ALU_ALU_sch_tb_beh.prj" "work.ALU_ALU_sch_tb" 

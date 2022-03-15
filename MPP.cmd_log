@@ -1,0 +1,8 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym MPP {C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.sch} {C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.sym} 
+xst -intstyle ise -ifn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.xst" -ofn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.syr" 
+xst -intstyle ise -ifn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.xst" -ofn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.syr" 
+xst -intstyle ise -ifn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.xst" -ofn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/MPP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "MPP.ngc" MPP.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MPP_map.ncd MPP.ngd MPP.pcf 
+par -w -intstyle ise -ol high -mt off MPP_map.ncd MPP.ncd MPP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MPP.twx MPP.ncd -o MPP.twr MPP.pcf 

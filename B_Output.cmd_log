@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/B_Output.xst" -ofn "C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/B_Output.syr" 
+sch2sym -intstyle ise -family spartan6 -w -refsym B_Output {C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/B_Output.sch} {C:/Users/hasan/Desktop/UMBC/CMSC 313/Project1/SimpleProcessor/B_Output.sym} 
